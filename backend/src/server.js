@@ -9,15 +9,18 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Routes (we'll add more soon)
+// Routes
+app.use('/api/servers', require('./routes/servers'));
+app.use('/api/places', require('./routes/places'));
+app.use('/api/auth', require('./routes/auth'));
+
 app.get('/', (req, res) => {
-res.send('Dime Eats Backend is Running!');
+res.send('✅ Dime Eats Backend is Running!');
 });
 
-// Connect to DB and start server
 connectDB().then(() => {
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-console.log(`Server running on port ${PORT}`);
+console.log(`🚀 Server running on port ${PORT}`);
 });
 });
