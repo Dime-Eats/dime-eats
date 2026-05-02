@@ -1,16 +1,13 @@
-## Hi there 👋
+# Dime Eats 💰
 
-<!--
-**Dime-Eats/dime-eats** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Drop a dime for great service. Find servers, leave positive reviews, and support your favorites.
 
-Here are some ideas to get you started:
+## Tech Stack
+- Frontend: React + Vite + Tailwind CSS
+- Backend: Node.js + Express + MongoDB
+- Auth: Firebase
+- Venues: Google Places API
+- PWA ready
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Setup Instructions
+See `backend/` and `frontend/` folders.
